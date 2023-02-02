@@ -1,0 +1,41 @@
+/* DetailSong */
+.detail-song {
+  background-color: #15203a;
+  border-radius: 30px;
+}
+/* Playing */
+.player-music {
+  background-color: #0f172a !important;
+  height: 6rem;
+  color: #fff !important;
+}
+
+.rhap_time,
+.rhap_current-time {
+  color: #fff !important;
+}
+
+::selection {
+  background-color: transparent;
+  color: turquoise;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
